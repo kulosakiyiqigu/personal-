@@ -1,0 +1,57 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0} 
+body{font:12px"微软雅黑","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%;} 
+a{color:#333333;text-decoration:none} 
+a:hover{
+	color: #ff4e00 !important;
+}
+em{font-style:normal} 
+li{list-style:none} 
+img{border:0;vertical-align:middle} 
+table{border-collapse:collapse;border-spacing:0} 
+p{word-wrap:break-word} 
+
+.modle-tit{
+	width: 830px;
+	height: 26px;
+	margin-bottom: 20px;
+}
+.modle-tit>span{
+	display: block;
+	float: left;
+	width: 22px;
+	height: 22px;
+	background: url(../img/sprite-icon.png) no-repeat -296px -71px;
+	margin-right: 12px;
+}
+
+.icon-jia{
+	display: block;
+	width: 6px;
+	height: 6px;
+	background:url(../img/sprite-icon.png) no-repeat 0 -16px;
+	float: right;
+	position: relative;
+	bottom: -6px;
+}
+
+/*更多+*/
+.more{
+	width: 34px;
+	height: 20px;
+	line-height: 20px;
+	float: right;
+	position: relative;
+	
+}
+.more s{
+	position: absolute;
+	right: 0;
+	top: 6px;
+}
+.icon-te{
+	display: inline-block;
+    width: 7px;
+    height: 7px;
+    background: url(../img/sprite-icon.png) no-repeat 0 -53px;
+    margin-right: 20px;
+}

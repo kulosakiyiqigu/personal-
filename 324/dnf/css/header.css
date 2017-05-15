@@ -1,0 +1,145 @@
+
+.header{
+	height: 39px;
+	width: 100%;
+	border-top: 1px solid #e4e7ea;
+	border-bottom: 1px solid #e4e7ea;
+}
+.img-t{
+	position: absolute;
+	left: 434px;
+	top: 0;
+	z-index: 10;
+	display: none;
+}
+.img-t img{
+	width: 1060px;
+}
+.logo{
+	float: left;
+	margin-left: 450px;
+	position: relative;
+	z-index: 4;
+}
+.xuanwu{
+	float: left;
+}
+.game-rank{
+	float: right;
+	font: 12px/40px "微软雅黑";
+	width: 100px;
+	height: 38px;
+	position: relative;
+	margin-right: 440px;
+	z-index: 4;
+}
+.game-rank a{
+	display: block;
+	float:left ;
+	color: black;
+}
+.game-rank i{
+	display: block;
+	width: 11px;
+	height: 11px;
+	background: url(../img/ost-bg.png) no-repeat -150px -134px;
+	float: right;
+	position: absolute;
+	top: 16px;
+	right: 0;
+}
+.game-rank-active i{
+	background: url(../img/ost-bg.png) no-repeat -170px -134px;
+}
+.game-rank-active a{
+	color:#ff4e00;
+}
+.rank{
+	width: 700px;
+	height: 480px;
+	background:white;
+	position: absolute;
+	top: 41px;
+	left: 770px;
+	z-index: 10;
+	display: none;
+}
+.rank_t{
+	margin-left: 15px;
+	float: left;
+}
+.rank_t li{
+	position: relative;
+}
+.rank_t h3{
+	height: 20px;
+	margin-top: 10px;
+}
+.rank_t h3 a{
+	margin-left: 10px;
+	font-size: 12px;
+	color: #999;
+}
+.rank_t>p{
+	height: 20px;
+	margin-top: 20px;
+}
+.imgnav{
+	margin-top: 10px;
+}
+.imgnav li{
+	width: 204px;
+	height:auto;
+	position: relative;
+}
+.game-text{
+	padding:0 10px 10px 0px;
+	margin-left: 10px;
+}
+.num{
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+	/*border: 1px solid #999;*/
+	color: #999;
+	text-align: center;
+	line-height: 12px;
+}
+.num1{
+	width: 12px;
+	height: 12px;
+	display: inline-block;
+	border: 1px solid #999;
+	color: #999;
+	text-align: center;
+	line-height: 12px;
+	position: absolute;
+	top: 0;
+	left:0;
+}
+.gam-img{
+	height: 82px;
+	display: none;
+	padding:0 10px 10px 0px;
+	margin-left: 10px;
+	position: relative;
+	
+}
+.gam-img img{
+	border: 1px solid #CCCCCC;
+	height: 82px;
+}
+.gam-img p{
+	position: absolute;
+	bottom: 8px;
+	background: rgba(0,0,0,.75);
+}
+.gam-img p a{
+	color: #aaa;
+	width: 97px;
+	height: 33px;
+	display: inline-block;
+	float: left;
+	line-height: 33px;
+	text-align: center;
+}

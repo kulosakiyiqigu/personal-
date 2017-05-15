@@ -1,0 +1,74 @@
+.footer{
+	width: 100%;
+    background: #282725;
+    clear: both;
+}
+.f-infos{
+	position: relative;
+    padding: 30px 0 30px 320px;
+    width: 715px;
+    color: #8c8c8c;
+    margin: 0 auto;
+}
+.tencent-game{
+	width: 220px;
+    height: 43px;
+    background: url(../img/sprite-bg.png);
+    background-position: -215px -436px;
+    position: absolute;
+    top: 30px;
+    left: 75px;
+    z-index: 0;
+}
+.tencent-game a{
+	display: block;
+    width: 115px;
+    height: 40px;
+}
+.f-infos ul li{
+	float: left;
+}
+.f-infos ul li a{
+	color: #8c8c8c;
+}
+.f-infos ul li span{
+	display: inline-block;
+    margin: 0 4.5px 0;
+    width: 1px;
+    height: 6px;
+    overflow: hidden;
+    background: #454446;
+}
+.e{
+	
+	font-size: 8px;  
+}
+.r{
+	position: absolute;
+	right:5px ;
+	top: 45px;
+}
+.r a{
+	color:#8c8c8c;
+}
+.license{
+	padding: 0 5px;
+    margin-top: 3px;
+    width: 560px;
+    background-color: #313131;
+    height: 21px;
+    border-radius: 2px;
+    color: #7f7f7f;
+    line-height: 21px;
+}
+
+.license a{
+	color: #8c8c8c;
+	margin-left:10px;
+}
+.es{
+	margin-left: 10px;
+}
+
+
+	
